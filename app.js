@@ -555,10 +555,10 @@ $(document).ready(function() {
                     <td id="tdProcessID">${process.processID}</td>
                     <td id="tdArrivalTime">${process.arrivalTime}</td>
                     <td id="tdBurstTime">${process.burstTime}</td>
-                    <td id="tdPriority">${process.priority}</td>
                     <td id="tdCompletedTime">${process.completedTime}</td>
                     <td id="tdWaitingTime">${process.waitingTime}</td>
                     <td id="tdTurnAroundTime">${process.turnAroundTime}</td>
+                    <td id="tdPriority">${process.priority}</td>
                 </tr>`
             );
         });
